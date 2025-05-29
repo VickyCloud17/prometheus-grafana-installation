@@ -1,0 +1,12 @@
+ sudo apt update
+sudo apt install prometheus -y
+##Prometheus works on port 9090 add port in sg
+##To install node-exporter
+sudo apt install prometheus-node-exporter -y
+ 
+ 1  cd /etc/prometheus/
+  2  sudo nano rules.yml
+  3  sudo nano prometheus.yml
+  4  sudo nano rules.yml
+  5  sudo service prometheus reload
+  6  sudo service prometheus-node-exporter reload
